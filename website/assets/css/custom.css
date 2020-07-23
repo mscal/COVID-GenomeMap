@@ -1,0 +1,173 @@
+/* Navigation Styles */
+ul{
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);
+    border-radius:  0px 5px 5px 0px;
+}
+
+
+
+/* Container Styles*/
+
+.container-text {
+    background-color: #0F1F23;
+    color: white;
+    border-radius: 0px 0px 10px 10px;
+    padding: 0rem 2rem 2rem 2rem;
+    display: flex;
+}
+
+.container-text-full {
+    background-color: #0F1F23;
+    color: white;
+    border-radius: 10px;
+    padding: 2rem;
+    display: flex;
+}
+
+.container-text p {
+    text-align: left !important;
+    text-justify: auto;
+    margin: 1rem;
+    font-weight: 500;
+    max-width: 45rem;
+}
+
+.container-text-right{
+    min-width: 35rem;
+}
+
+.container-text a {
+    color: #50BEDD;
+    font-weight: 600;
+}
+
+.note {
+    color: #DEC87C;
+}
+
+
+/* 
+Input Styles
+*/
+label {
+    color: white;
+    font-weight: 500;
+}
+
+input {
+    padding: 0.5rem;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #0F1F23;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    margin: 1rem;
+}
+
+button {
+    padding: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 5px;
+    border-style: none;
+    font-weight: 600;
+    margin: 1rem;
+}
+
+/*Removing line height distortion from trademark text*/
+sup {
+    vertical-align: top;
+    position: relative;
+    top: -0.5em;
+}
+
+/*Time lag disclaimer*/
+.time-lag {
+    font-size: 0.625rem;
+}
+
+#output-count {
+    background-color: rgba(91, 241, 190, 0.32);
+    padding: 1rem 3rem 1rem 3rem;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 2rem;
+    margin: 1rem;
+
+}
+
+#output-date {
+    background-color: rgba(255, 255, 255, 0.32);
+    padding: 1.5rem 3rem 1.5rem 3rem;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+
+
+/* Table Styles */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 10px 10px 0em 0em;
+    overflow: hidden;
+    box-shadow: 0 0 0 1px;
+    margin-top: 2rem;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+th {
+    background-color: white;
+    color: black;
+}
+
+
+/* Media Queries */
+@media screen and (max-width: 2560px) {
+    .title{
+        padding: 3rem 3rem 1rem 3rem;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .container-text {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .container-text {
+        flex-wrap: wrap;
+    }
+    .container-text-right {
+        min-width: 25rem;
+    }
+
+    #header-wrapper{
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 425px) {}
+
+
+@media screen and (min-width: 1200px) {}
+
+@media screen and (min-width: 767px) {}
+
+@media screen and (min-width: 425px) {}

@@ -1,81 +1,137 @@
 <!DOCTYPE html>
+<html lang="en">
+
 <head>
-  <!-- Primary Meta Tags -->
-  <title>COVID19 genomics platform</title>
-  <meta name="title" content="COVID19 genomics platform">
-  <meta name="description" content="Actionable insights from SARS-CoV-2 data in GISAID - a Phylogentic-free genomic distance measure for millions of individual isolates.">
+	<!-- Primary Meta Tags -->
+	<title>COVID19 genomics platform</title>
+	<meta name="title" content="COVID19 genomics platform">
+	<meta name="description"
+		content="Actionable insights from SARS-CoV-2 data in GISAID - a Phylogentic-free genomic distance measure for millions of individual isolates.">
 
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://d1v7neu4o1h4vp.cloudfront.net/index.html">
-  <meta property="og:title" content="COVID19 genomics platform">
-  <meta property="og:description" content="Actionable insights from SARS-CoV-2 data in GISAID - a Phylogentic-free genomic distance measure for millions of individual isolates.">
-  <meta property="og:image" content="https://covid19-platform.s3-ap-southeast-2.amazonaws.com/images/COVID19_meta.png">
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://d1v7neu4o1h4vp.cloudfront.net/index.html">
+	<meta property="og:title" content="COVID19 genomics platform">
+	<meta property="og:description"
+		content="Actionable insights from SARS-CoV-2 data in GISAID - a Phylogentic-free genomic distance measure for millions of individual isolates.">
+	<meta property="og:image"
+		content="https://covid19-platform.s3-ap-southeast-2.amazonaws.com/images/COVID19_meta.png">
 
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary_large_image">
+	<meta property="twitter:url" content="https://d1v7neu4o1h4vp.cloudfront.net/index.html">
+	<meta property="twitter:title" content="COVID19 genomics platform">
+	<meta property="twitter:description"
+		content="Actionable insights from SARS-CoV-2 data in GISAID - a Phylogentic-free genomic distance measure for millions of individual isolates.">
+	<meta property="twitter:image"
+		content="https://covid19-platform.s3-ap-southeast-2.amazonaws.com/images/COVID19_meta.png">
 
-  <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="https://d1v7neu4o1h4vp.cloudfront.net/index.html">
-  <meta property="twitter:title" content="COVID19 genomics platform">
-  <meta property="twitter:description" content="Actionable insights from SARS-CoV-2 data in GISAID - a Phylogentic-free genomic distance measure for millions of individual isolates.">
-  <meta property="twitter:image" content="https://covid19-platform.s3-ap-southeast-2.amazonaws.com/images/COVID19_meta.png">
+	<link href="assets/css/default.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="assets/css/custom.css" rel="stylesheet" type="text/css" media="all" />
 
-<link href="assets/css/default.css" rel="stylesheet" type="text/css" media="all" />
-
-<!--[if IE 6]>
-<link href="default_ie6.css" rel="stylesheet" type="text/css" />
-<![endif]-->
+	<!--[if IE 6]>
+			<link href="default_ie6.css" rel="stylesheet" type="text/css" />
+			<![endif]-->
 </head>
+
 <body>
-
-
-<div id="header-wrapper">
-	<div id="header" class="container">
-		<div id="logo">
-			<h1><a href="#">Covid-19 Virus Genomes</a></h1>
-		</div>
-		<div id="menu"> <!--#unlock these comments to add menu items.-->
-			<ul>
-				<li class="current_page_item"><a href="#" accesskey="1" title="">Homepage</a></li>
-				<li><a href="methods.html" accesskey="2" title="">Methods</a></li>
-        <!--<li><a href="network.html" accesskey="3" title="">Network</a></li>-->
-				<li><a href="contact.html" accesskey="4" title="">Contact Us</a></li>
-        <li><a href="acknowledgement.html" accesskey="5" title="">Acknowledgements</a></li>
-			</ul>
+	<div id="header-wrapper">
+		<div id="header" class="container">
+			<div id="logo">
+				<h1><a href="#">Covid-19 Virus Genomes</a></h1>
+			</div>
+			<div id="menu">
+				<!--#unlock these comments to add menu items.-->
+				<ul>
+					<li class="current_page_item"><a href="#" accesskey="1" title="">Homepage</a></li>
+					<li><a href="methods.html" accesskey="2" title="">Methods</a></li>
+					<!--<li><a href="network.html" accesskey="3" title="">Network</a></li>-->
+					<li><a href="contact.html" accesskey="4" title="">Contact Us</a></li>
+					<li><a href="acknowledgement.html" accesskey="5" title="">Acknowledgements</a></li>
+				</ul>
+			</div>
 		</div>
 	</div>
-</div>
-<div id="wrapper">
-	<div id="welcome" class="wrapper-style1">
-		<div class="title">
-			<h2 id="withSubheader">Genomic Signature Analysis of Virus Causing COVID-19 </h2>
-      <h3>enabled by data from <img id="gisaid_logo" src="assets/images/GISAID_Logo.png" alt="GISAID badge"></h3> </br></br> </br>
-			<span class="byline">The rapid spread and subsequent evolution of the SARS-CoV-2 (hCoV-19) virus makes it hard to apply traditional phylogenetic methods (such as trees), which are compute intensive and may overlook the more complicated relationship between viral strains such as recombination. By using alignment free approaches such as genomic signature analysis, we are able to represent the similarity of viral genomes in 2-dimensional space. This allows us to visualize the relationship between all viral strains at once. For a more detailed description of the method, see <a href="https://onlinelibrary.wiley.com/doi/10.1111/tbed.13588">Bauer et al 2020</a>. </span> </br></br>
-      <span class="byline">Here we analyze the hCoV-19 sequences in the <a href="https://www.gisaid.org/">GISAID</a> EpiCoV<sup>TM</sup> Database. In particular, we focus on the emergence and evolution of Australian isolates (blue samples). Data is updated regularly with all samples that are isolated from human with their entire genome sequenced made possible by the <a href="acknowledgement.html">contributors of data</a> in GISAID. Please note, that the isolate positions are relative and get updated with every new sequence added to the analysis, hence there are not fixed x-y coordinates for each isolate. </span>
-    <div class="seq">Total sequences analysed:<font size="-2">(note there is a time lag to GISAID)</font> <object  type="text/plain" data="covid19data/dateCount.txt" width="500" height="40"></object></div>
-    </div>
-    <!-- <div class="help-tip">
-        <p>To zoom into specific isolate - Go to GISaid, pick the accession number for example "Australia/VIC01|EPI_ISL_406844|2020-01-25" and type it in and press submit. If the strain is not showing up please look through 'Methods' if it was combined with other sequences and is now called 'Combined_Sequences_(Number)'</p>
-    </div>-->
-      <input type="text" id="data_id" value="Reference_Sequence" size="50">
-      <button id="reset">Reset</button>
-      <button id="submit">Submit</button>
-      <button id="example" class="my-button" data-tooltip="To zoom into specific isolate - Go to GISaid, pick the accession number for example 'Australia/VIC01|EPI_ISL_406844|2020-01-25' and type it in and press submit. If the strain is not showing up please look through 'Methods' if it was combined with other sequences and is now called 'Combined_Sequences_(Number)'" >Example </button>
-      <label >Zoom Scale</label>
-      <input type="text" id="zoom_scale" value="350" size="4">
+	<div id="wrapper">
+		<div id="welcome" class="wrapper-style1">
+			<div class="title">
+				<h2 id="withSubheader">Genomic Signature Analysis of Virus Causing COVID-19 </h2>
+				<h3>enabled by data from <img id="gisaid_logo" src="assets/images/GISAID_Logo.png" alt="GISAID badge">
+				</h3>
+			</div>
 
-      <div id="container"></div>
-      <div class="title"></div>
-    </div>
-</div>
+			<div class="container-text">
+				<p>The rapid spread and subsequent evolution of the SARS-CoV-2 (hCoV-19) virus makes it hard
+					to apply traditional phylogenetic methods (such as trees), which are compute intensive and
+					may overlook the
+					more complicated relationship between viral strains such as recombination. By using
+					alignment free approaches
+					such as genomic signature analysis, we are able to represent the similarity of viral genomes
+					in 2-dimensional
+					space. This allows us to visualize the relationship between all viral strains at once. For a
+					more detailed
+					description of the method, see <a
+						href="https://onlinelibrary.wiley.com/doi/10.1111/tbed.13588">Bauer et al
+						2020</a>. </p>
+				<div class="container-text-right">
+					<p>Here we analyze the hCoV-19 sequences in the <a href="https://www.gisaid.org/">GISAID</a>
+						EpiCoV<sup>TM</sup> Database. In particular, we focus on the emergence and evolution of
+						Australian isolates
+						(blue samples). Data is updated regularly with all samples that are isolated from human with
+						their entire
+						genome sequenced made possible by the <a href="acknowledgement.html">contributors of
+							data</a> in
+						GISAID.
+					</p>
+					<p class="note">Please note, that the isolate positions are relative and get updated with every
+						new sequence added to the analysis, hence there are not fixed x-y coordinates for each
+						isolate.</p>
+				</div>
+			</div>
 
-<div id="footer" class="container">
-  <p class="byline">GISAID data provided on this website is subject to GISAID's <a class="text-primary" target="_blank" href="https://www.gisaid.org/registration/terms-of-use/">Terms and Conditions.</a> <span class="privacy"> <a class="text-primary" target="_blank" href="https://www.csiro.au/en/About/Access-to-information/Privacy">Your Privacy</a></span></p>
-</div>
 
-<!-- load the d3.js library -->
-<script src="assets/js/d3-5.16.0.min.js" integrity="sha384-M06Cb6r/Yrkprjr7ngOrJlzgekrkkdmGZDES/SUnkUpUol0/qjsaQWQfLzq0mcfg" crossorigin="anonymous"></script>
-<script type="text/javascript" src="assets/js/jquery-3.5.0.min.js" integrity="sha384-LVoNJ6yst/aLxKvxwp6s2GAabqPczfWh6xzm38S/YtjUyZ+3aTKOnD/OJVGYLZDl" crossorigin="anonymous"></script>
+			<div class="seq">
+				<h2>Total sequences analysed:</h2>
 
-<script type="text/javascript" src="assets/js/scatterplot.js"></script>
+				<p id="output-count"></p>
+				<p id="output-date">Last Updated:</p>
+				<p class="time-lag">(note there is a time lag to GISAID)</p>
+				<!-- <object type="text/plain" data="covid19data/dateCount.txt" width="500" height="40"></object> -->
+			</div>
+
+			<!-- <div class="help-tip">
+								<p>To zoom into specific isolate - Go to GISaid, pick the accession number for example "Australia/VIC01|EPI_ISL_406844|2020-01-25" and type it in and press submit. If the strain is not showing up please look through 'Methods' if it was combined with other sequences and is now called 'Combined_Sequences_(Number)'</p>
+							</div>-->
+			<input type="text" id="data_id" value="Reference_Sequence" size="50">
+			<button id="reset">Reset</button>
+			<button id="submit">Submit</button>
+			<button id="example" class="my-button"
+				data-tooltip="To zoom into specific isolate - Go to GISaid, pick the accession number for example 'Australia/VIC01|EPI_ISL_406844|2020-01-25' and type it in and press submit. If the strain is not showing up please look through 'Methods' if it was combined with other sequences and is now called 'Combined_Sequences_(Number)'">Example
+			</button>
+			<label>Zoom Scale: </label>
+			<input type="text" id="zoom_scale" value="350" size="4">
+
+			<div id="container"></div>
+		</div>
+	</div>
+
+	<div id="footer" class="container">
+		<p class="byline">GISAID data provided on this website is subject to GISAID's <a class="text-primary"
+				target="_blank" href="https://www.gisaid.org/registration/terms-of-use/">Terms and Conditions.</a>
+			<span class="privacy"> <a class="text-primary" target="_blank"
+					href="https://www.csiro.au/en/About/Access-to-information/Privacy">Your Privacy</a></span></p>
+	</div>
+
+	<!-- load the d3.js library -->
+	<script src="assets/js/d3-5.16.0.min.js"
+		integrity="sha384-M06Cb6r/Yrkprjr7ngOrJlzgekrkkdmGZDES/SUnkUpUol0/qjsaQWQfLzq0mcfg" crossorigin="anonymous">
+	</script>
+	<script src="assets/js/jquery-3.5.0.min.js"
+		integrity="sha384-LVoNJ6yst/aLxKvxwp6s2GAabqPczfWh6xzm38S/YtjUyZ+3aTKOnD/OJVGYLZDl" crossorigin="anonymous">
+	</script>
+
+	<script src="assets/js/scatterplot.js"></script>
+	<script src="assets/js/fetch-date-count.js"></script>
 </body>
+
+</html>
