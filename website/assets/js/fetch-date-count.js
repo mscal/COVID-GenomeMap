@@ -1,5 +1,5 @@
 function loadTxt(){
-    fetch('/covid19data/dateCount.txt').then(function (response){
+    fetch('./covid19data/dateCount.txt').then(function (response){
 
         return response.text();
 
