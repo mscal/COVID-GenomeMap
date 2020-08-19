@@ -9,12 +9,26 @@ ul{
 
 /* Container Styles*/
 
+#container svg{
+    background-color: white;
+    border-radius: 10px;
+}
+
 .container-text {
     background-color: #0F1F23;
     color: white;
     border-radius: 0px 0px 10px 10px;
     padding: 0rem 2rem 2rem 2rem;
     display: flex;
+}
+
+.container-text-column {
+    background-color: #0F1F23;
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+    padding: 2rem 2rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .container-text-full {
@@ -64,6 +78,12 @@ input {
     font-weight: 600;
     color: white;
     margin: 1rem;
+    margin-left: 5px;
+}
+
+::placeholder{
+    color: white;
+    opacity: 0.5;
 }
 
 button {
@@ -95,6 +115,7 @@ sup {
     font-weight: 600;
     font-size: 2rem;
     margin: 1rem;
+    margin-left:0px;
 
 }
 
