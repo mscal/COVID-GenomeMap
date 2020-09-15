@@ -42,7 +42,7 @@ ul{
     text-justify: auto;
     margin: 1rem;
     font-weight: 500;
-    max-width: 45rem;
+    max-width: 39rem;
 }
 
 .container-text-right{
@@ -168,12 +168,30 @@ th,td {
         padding: 3rem 3rem 1rem 3rem;
         text-align: left;
     }
+    .container-text p{
+        min-width: 30rem;
+    }
+}
+
+@media screen and (max-width:1450px){
+     .container-text {
+         flex-direction: column;
+     }
 }
 
 @media screen and (max-width: 1200px) {
     .container-text {
         flex-wrap: wrap;
     }
+    .container-text p {
+        min-width: 20rem;
+    }
+     .container-text-right {
+         min-width: 25rem;
+     }
+     .container-text{
+         flex-direction: column;
+     }
 }
 
 @media screen and (max-width: 767px) {
@@ -181,7 +199,10 @@ th,td {
         flex-wrap: wrap;
     }
     .container-text-right {
-        min-width: 25rem;
+        min-width: 15rem;
+    }
+    .container-text p {
+        min-width: 10rem;
     }
 
     #header-wrapper{
